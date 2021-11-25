@@ -1,0 +1,6 @@
+type GravatarEntity @entity {
+  id: ID!
+  count: BigInt!
+  token: Bytes! # address
+  exchange: Bytes! # address
+}
